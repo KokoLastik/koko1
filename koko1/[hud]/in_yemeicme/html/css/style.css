@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'pricedown';
+    src: url('../fonts/pricedown.ttf');
+}
+
+@font-face {
+    font-family: 'gta-ui';
+    src: url('../fonts/gta-ui.ttf');
+}
+
+body {
+    font-family: "pricedown", Verdana, Tahoma;
+    font-size: 30px;
+    overflow: hidden;
+    height: 1080px;
+    width: 100%;
+}
+
+#heal, #armor {
+    border: 1px solid rgb(56, 55, 55);
+    background: rgb(128, 125, 125);
+}
+
+#hunger, #thirst, #stamina, #voice, #voiceOn, #stress {
+    border: 1px solid rgb(56, 55, 55);
+    background: rgb(128, 125, 125);
+}
+
+#boxHeal, #boxArmor, #boxStamina, #boxHunger, #boxThirst, #boxVoice, #boxVoiceOn, #boxStress {
+    width: 100%;
+    height: 100%;
+    transition: 0.2s ease-in-out;
+}
+
+#heal {
+    position: absolute;
+    left: 1.52%;
+    top: 97.06%;
+    bottom: 1.8%;
+    width: 3.500%;
+    height: 2%;
+    padding: 0;
+    float: left;
+}
+
+#armor {
+    position: absolute;
+    left: 5.255%;
+    bottom: 1.8%;
+    top: 97.06%;
+    width: 3.500%;
+    height: 2%;
+    padding: 0;
+    float: left;
+}
+
+#hunger {
+    position: absolute;
+    left: 9.10%;
+    transform: rotateZ(270deg);
+    top: 96.85%;
+    bottom: 0.35%;
+    width: 1.15%;
+    height: 2.45%;
+    padding: 0;
+    float: left;
+}
+
+#thirst {
+    position: absolute;
+    left: 10.70%;
+    transform: rotateZ(270deg);
+    top: 96.85%;
+    bottom: 0.35%;
+    width: 1.15%;
+    height: 2.45%;
+    padding: 0;
+    float: left;
+}
+
+#stamina {
+    position: absolute;
+    left: 12.40%;
+    transform: rotateZ(270deg);
+    top: 96.85%;
+    bottom: 0.35%;
+    width: 1.15%;
+    height: 2.45%;
+    padding: 0;
+    float: left;
+}
+
+#voice {
+    position: absolute;
+    left: 19.8524%;
+    top: 97.06%;
+    bottom: 0.35%;
+    width: 1.46%;
+    height: 2%;
+    padding: 0;
+    float: left;
+}
+
+#voiceOn {
+    position: absolute;
+    left: 19.8524%;
+    bottom: 0.35%;
+    width: 1.46%;
+    top: 97.06%;
+    height: 2%;
+    padding: 0;
+    float: left;
+    background: none;
+}
+
+#stress {
+    position: absolute;
+    left: 14.13%;
+    transform: rotateZ(270deg);
+    top: 96.85%;
+    bottom: 0.35%;
+    width: 1.15%;
+    height: 2.45%;
+    padding: 0;
+    float: left;
+}
+
+#boxHeal {
+    background: rgb(73, 148, 73);
+}
+
+#boxArmor {
+    background: rgb(103, 105, 212);
+}
+
+#boxHunger {
+    background: rgb(75, 165, 75);
+}
+
+#boxThirst {
+    background: rgb(89, 90, 215);
+}
+
+#boxStamina {
+    background: rgb(192, 170, 75);
+}
+
+#boxVoice {
+    background: rgb(169, 169, 169);
+}
+
+#boxVoiceOn {
+    background: rgba(241, 124, 235, 0.678);
+}
+
+#boxStress {
+    background: rgba(192, 59, 59);
+}

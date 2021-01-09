@@ -1,0 +1,4 @@
+start in_yemeicme
+start in_stress
+start in_status
+start in_active
